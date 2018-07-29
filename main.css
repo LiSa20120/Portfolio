@@ -14,7 +14,6 @@ body {
     
 }
 
-/* Center website */
 .main {
     max-width: 1000px;
     margin: auto;
@@ -29,26 +28,26 @@ h1 {
     margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+
 .row,
 .row > .column {
     padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 25%;
 }
 
-/* Clear floats after rows */ 
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Content */
+
 .content {
     background-color: white;
     padding: 10px;
@@ -67,7 +66,7 @@ a:hover{
 }
 
 #text-container {
-    font-family: 'Raleway', sans-serif;
+    
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 0;
@@ -78,6 +77,3 @@ a:hover{
     color: rgb(252, 252, 252);
 }
 
-#row{
-    text-align:left;
-}
