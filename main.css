@@ -52,6 +52,16 @@ h1 {
     background-color: white;
     padding: 10px;
 }
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 a
 {
